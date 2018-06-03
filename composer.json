@@ -1,0 +1,24 @@
+{
+    "name": "muhammadtaqi/php-project-for-git-composer-phpunit-codesniffer-mess-detector",
+    "description": "Setting up a PHP Project for Git, Composer, PHPUnit, PHP_Codesniffer and PHP Mess Detector",
+    "type": "project",
+    "autoload": {
+        "psr-0": { "pl\\basicproject\\": "src/" }
+    },
+    "require": {
+        "php": "^7.2",
+        "phpmd/phpmd": "^2.6",
+        "phpunit/phpunit": "^7.1",
+        "squizlabs/php_codesniffer": "^3.2"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Taqi Hassan",
+            "email": "taqi.official@gmail.com"
+        }
+    ]
+}
