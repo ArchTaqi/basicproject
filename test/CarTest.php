@@ -1,14 +1,20 @@
-<?php 
-namespace pl\basicproject;
+<?php
 
+namespace unit\muhammadtaqi\basicproject;
+
+use muhammadtaqi\basicproject\Car;
 use PHPUnit\Framework\TestCase;
-use pl\basicproject\Car;
 
-class CarTest extends TestCase 
+/**
+ * Class CarTest
+ * @package unit\muhammadtaqi\basicproject
+ */
+class CarTest extends TestCase
 {
-    public  function testBeep() {
-       $car = new Car();
-       $result = $car->beep();
+    public function testBeep()
+    {
+        $car = new Car();
+        $result = $car->beep();
         $this->assertEquals(true, $result);
-     }
+    }
 }
